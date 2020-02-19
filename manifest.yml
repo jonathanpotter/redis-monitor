@@ -1,0 +1,14 @@
+---
+applications:
+- name: my-redis-commander
+  memory: 256M
+  instances: 1
+  random-route: true
+  buildpacks:
+  - nodejs_buildpack
+  command: node index.js
+#  env:
+#    HTTP_PROXY: http://proxy.company.com:83
+#    HTTPS_PROXY: http://proxy.company.com:83
+  services:
+    - my-redis

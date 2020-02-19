@@ -1,0 +1,27 @@
+{
+  "name": "redis-commander",
+  "version": "0.6.5",
+  "description": "Redis Commander on PCF",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node": "12.3.1",
+    "npm": "2.15.x"
+  },
+  "dependencies": {
+    "redis-commander": "^0.6.5"
+  },
+  "author": "",
+  "license": "BSD-2-Clause",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jonathanpotter/redis-monitor.git"
+  },
+  "keywords": [
+    "redis"
+  ]
+}
